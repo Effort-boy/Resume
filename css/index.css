@@ -1,0 +1,108 @@
+/* ----第一页---- */
+.page1 h1{
+	width: 200px;
+	height: 200px;
+	font-size: 150px;
+	text-align: center;
+	margin: 30px auto;
+	position: relative;
+}
+.page1 .zhu1{
+	margin-top: 300px;
+	border-radius: 50%;
+	background-color:#dcdbd7 ;
+	-webkit-text-fill-color: white;
+}
+.page1 .zhu2{
+	-webkit-text-stroke: 4px rgba(0,0,0,0.5);
+	-webkit-text-fill-color: #dcdbd7;
+}
+.page1 .zhu3{
+	border: 4px solid rgba(0,0,0,0.3);
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 4px rgba(0,0,0,0.4);
+}
+
+.page1 .zhu4{
+	margin-bottom: 60px;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke:4px rgba(0,0,0,0.5);
+}
+
+.page1 h3{
+	font-size: 40px;
+	margin-top: 90px;
+	color:rgba(0,0,0,0.5) ;
+	text-align: center;
+}
+.page1 .name,.work{
+	margin-left: 10px;
+	display: inline-block;
+	width: 160px;
+	height: 54px;
+	border-radius: 25px;
+	background-color: peachpuff ;
+	color: rgba(0,0,0,0.5);
+}
+.page1 .work{
+	width: 250px;
+	height: 54px;
+}
+/*太阳*/
+.up{
+	position: fixed;
+	left: -100px;
+	top: -100px;
+	width: 550px;
+	height: 550px;
+	background: url(../img/太阳.png) no-repeat;
+	background-size: cover;
+	animation: musicRotate 2s linear infinite;
+	z-index: 100;
+}
+/*小草*/
+.page1 .down{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: 0px;
+	background: url(../img/小草.png);
+	background-size: 10%;
+}
+/*蒲公英*/
+.page1 .pg{
+	width: 100px;
+	height: 100px;
+	background: url(../img/蒲公英1.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.page1 .pg1{
+	left: 60%;
+	top: 5%;
+	
+}
+.page1 .pg2{
+	left: 15%;
+	top: 32%;
+	
+}
+.page1 .pg3{
+	left: 20%;
+	top: 58%;
+}
+.page1 .pg4{
+	left: 65%;
+	top: 50%;
+
+}
+.page1 .pg5{
+	left: 55%;
+	top: 78%;
+
+}
+.page1 .pg6{
+	left: 30%;
+	top: 70%;
+
+}
